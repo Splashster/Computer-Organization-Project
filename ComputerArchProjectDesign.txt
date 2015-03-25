@@ -1,0 +1,18 @@
+When user runs program jframe appears in midde of screen asking user to enter instruction
+	Allow user to select the following instructions (Instructions in dropbox)
+		1. ADD
+		2. AND
+		3. LOAD
+		4. STORE
+		5. CALL
+    Depending on selection, use "InstructionStateChanger.java" to select the state
+	InstructionInterface
+		Methods
+			Public void AddTwoOperands(String Destination,String Source 1,String Source 2);
+			Public void AddOneOperandImm(String Destination,String Source 1,Int Immediate);
+			Public void AndTwoOperands(String Destination,String Source 1,String Source 2);
+			Public void AndOneOperandImm(String Destination,String Source 1,Int Immediate);
+			Public void LoadTwoOperands(String Destination, String Source);
+			Public void StoreTwoOperands(String Destination, String Source);
+			Public void Call(String Destination);
+			InstructionException();
